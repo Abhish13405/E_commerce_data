@@ -44,6 +44,8 @@ def load_data(path):
 
 
 df_clean = load_data(DATA_PATH)
+# st.write(df_clean.shape)
+# st.write(df_clean.head())
 
 # ---------------------------------------------------------
 # Sidebar Filters
