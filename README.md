@@ -7,13 +7,13 @@ An end-to-end e-commerce data analysis project featuring exploratory data analys
 ## 📁 Project Structure
 
 ```
-ecomerc_analysis/
+   E_commerce_data/
 │
 ├── data.csv                        # Raw e-commerce dataset (~45 MB)
 ├── cleaned_ecommerce_data.csv      # Cleaned/preprocessed dataset (~69 MB)
 │
 ├── Ecommerce_Analysis.ipynb        # Jupyter Notebook — full EDA & analysis
-├── Ecommerce_dashboard.py          # Streamlit interactive dashboard
+├── app.py          # Streamlit interactive dashboard
 │
 ├── requirements.txt                # Python dependencies
 │
@@ -59,7 +59,7 @@ ecomerc_analysis/
 
 ## 📊 Dashboard Features
 
-The **Streamlit dashboard** (`Ecommerce_dashboard.py`) provides:
+The **Streamlit dashboard** (`app.py`) provides:
 
 - **Sidebar Filters** — Filter by country and date range
 - **KPI Cards** — Total Revenue, Total Orders, Total Customers, Avg Order Value
@@ -94,7 +94,7 @@ The **Streamlit dashboard** (`Ecommerce_dashboard.py`) provides:
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd ecomerc_analysis
+   cd E_commerce_data
    ```
 
 2. **Install dependencies**
